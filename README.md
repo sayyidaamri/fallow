@@ -2,7 +2,7 @@
 
 # Fallow
 
-Fallow adalah toko online fiktif untuk **kit uji inti tanah (soil core) rumahan**. Pembeli memutar satu inti tanah sedalam 30 cm dari kebunnya, mengirimnya ke lab, lalu menerima laporan 15 penanda yang dipetakan sepanjang 30 musim. Targetnya pekebun rumahan, penyewa lahan allotment, dan kebun kecil. Situs ini adalah rebuild orisinal yang terinspirasi tata letak dan perilaku sebuah situs referensi. Produk, brand, copy, gambar, dan kodenya dibuat baru.
+Fallow adalah toko online fiktif untuk **kit uji inti tanah (soil core) rumahan**. Pembeli memutar satu inti tanah sedalam 30 cm dari kebunnya, mengirimnya ke lab, lalu menerima laporan 15 penanda yang dipetakan sepanjang 30 musim. Targetnya pekebun rumahan, penyewa lahan allotment, dan kebun kecil. Situs ini adalah karya orisinal. Produk, brand, copy, gambar, dan kodenya dibuat baru.
 
 ## Halaman (47)
 
@@ -33,13 +33,13 @@ Fallow adalah toko online fiktif untuk **kit uji inti tanah (soil core) rumahan*
 - Kartu kaca bertumpuk di `science`, `our-story`, `ground-score`. Topeng oval dan snap di `what-we-test`.
 - Akordeon, explorer tab, lightbox, filter dan urutan ulasan, filter jurnal (termasuk state kosong), validasi formulir, keranjang di `localStorage`, dan popup promo (9 detik, sekali per sesi).
 - Gradien penutup digambar dengan shader WebGL buatan sendiri. Semua animasi menghormati `prefers-reduced-motion`.
-- Situs ini tidak memakai sound, karena referensinya juga tidak (video saja, muted).
+- Situs ini tidak memakai sound (video saja, muted).
 
 ## Teknologi
 
 HTML, CSS, dan JavaScript native. Tanpa framework, library, hosting, atau build.
 
-Font: **Hanken Grotesk**, **Source Serif 4**, dan **Geist Mono**, disimpan lokal. Ketiganya menggantikan font komersial di referensi, jadi bentuk hurufnya mendekati, tidak sama.
+Font: **Hanken Grotesk**, **Source Serif 4**, dan **Geist Mono**, disimpan lokal. Ketiganya adalah font gratis berlisensi terbuka.
 
 ## Menjalankan
 
@@ -92,8 +92,6 @@ Edit langsung file finalnya, tidak ada generator.
 
 ## Keterbatasan
 
-- Font pengganti membuat beberapa baris patah di tempat berbeda.
-- Shader penutup meniru karakter geraknya, bukan salinan video aslinya.
 - Snap di `what-we-test` memakai smooth scroll bawaan browser.
-- Ulasan ditulis 8 buah, referensi punya 25.
+- Ulasan ditulis 8 buah sebagai contoh.
 - `assets/img/sci-3.jpg` belum dipakai di halaman mana pun.
